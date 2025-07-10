@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Polera Ingenieria Ambiental</title>
+    <link rel="stylesheet" href="/css/Postres/detalle.css">
+    <link rel="stylesheet" href="/css/index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body class="page-home">
+    <header class="navbar navbar-expand-lg bg-primary custom-navbar">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="/img/Logo.jpeg" alt="UCSUR Emprende Logo" class="logo">
+            </a>
+
+            <div class="search-bar d-flex align-items-center me-auto ms-lg-3">
+                <input type="text" placeholder="Buscar productos..." aria-label="Buscar productos">
+                <span class="material-icons search-icon">search</span>
+            </div>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-center">
+                    <li class="nav-item">
+                        <a href="/login.html" class="nav-link navbar-icon-link"
+                            aria-label="Iniciar sesión o perfil de usuario">
+                            <span class="material-icons user-icon">person</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/html/cart.html" class="nav-link navbar-icon-link" aria-label="Ver carrito de compras">
+                            <span class="material-icons cart-icon">shopping_cart</span>
+                        </a>
+                    </li>
+                    <li class="nav-item ms-lg-3">
+                        <button class="sell-button btn btn-success rounded-pill">Vender</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <nav class="categories">
+        <a href="/index.html" class="category-link-button">Inicio</a>
+        <a href="/html/oferta.html" class="category-link-button">Ofertas del día</a>
+        <a href="/html/postres.html" class="category-link-button">Postres</a>
+        <a href="/html/comida.html" class="category-link-button">Comida</a>
+        <a href="/html/accesorios.html" class="category-link-button">Accesorios</a>
+        <a href="/html/ropa.html" class="category-link-button">Ropa Ucsur</a>
+    </nav>
+
+
+    <main class="container">
+        <div class="product-detail-container">
+            <div class="product-detail-img-wrapper">
+                <img src="/img/ropa/Polera Ingenieria Ambiental.jpg" alt="Calculadora" class="product-detail-img">
+            </div>
+            <div class="product-detail-info">
+                <h1>Polera Ingenieria Ambiental</h1>
+                <p class="price">S/ 36.00</p>
+                <p class="vendor">Vendido por: Equipo de Ropa UCSUR</p>
+                <p class="description">
+                    - Modelo cuello redondo / Modelo con capucha <br>
+                    - Tenemos TODAS LAS CARRERAS <br>
+                    - Tallas desde XS hasta XL <br>
+                    - Disponible en 7 colores.
+                </p>
+                <button class="buy-button">Añadir al Carrito</button>
+            </div>
+        </div>
+    </main>
+
+    <script src="/js/index.js"></script>
+    <script src="/js/Postres/detalle.js"></script>
+    <script src="/js/buscador.js"></script>
+</body>
+
+</html>

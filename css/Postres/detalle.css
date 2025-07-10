@@ -1,0 +1,112 @@
+.product-detail-container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-items: flex-start;
+}
+
+.product-detail-img-wrapper {
+    flex: 1 1 350px;
+    max-width: 50%;
+}
+
+.product-detail-img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.product-detail-info {
+    flex: 2 1 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.product-detail-info h1 {
+    font-size: 2.5em;
+    margin-top: 0;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.product-detail-info .price {
+    font-size: 2em;
+    color: #007bff;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.product-detail-info .vendor {
+    font-size: 1.1em;
+    color: #666;
+    margin-bottom: 25px;
+}
+
+.product-detail-info .description {
+    font-size: 1.1em;
+    line-height: 1.7;
+    color: #444;
+    margin-bottom: 30px;
+    flex-grow: 1;
+    text-align: justify;
+}
+
+.product-detail-info .buy-button {
+    background-color: #28a745;
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    align-self: flex-start;
+}
+
+.product-detail-info .buy-button:hover {
+    background-color: #218838;
+}
+
+@media (max-width: 768px) {
+    .product-detail-container {
+        flex-direction: column;
+        padding: 15px;
+        margin: 20px auto;
+        gap: 20px;
+    }
+    .product-detail-img-wrapper {
+        max-width: 100%;
+        flex: 1 1 auto;
+    }
+    .product-detail-info {
+        flex: 1 1 auto;
+    }
+    .product-detail-info h1 {
+        font-size: 2em;
+        text-align: center;
+    }
+    .product-detail-info .price {
+        font-size: 1.6em;
+        text-align: center;
+    }
+    .product-detail-info .vendor {
+        text-align: center;
+    }
+    .product-detail-info .description {
+        font-size: 1em;
+        text-align: justify;
+    }
+    .product-detail-info .buy-button {
+        width: 100%;
+        align-self: center;
+        padding: 12px 20px;
+    }
+}
