@@ -1,7 +1,4 @@
-// /js/index.js
-
 document.addEventListener('DOMContentLoaded', () => {
-    // --- Lógica para resaltar el botón de categoría activo ---
     const categoryLinks = document.querySelectorAll('.category-link-button');
     const currentPathname = window.location.pathname;
 

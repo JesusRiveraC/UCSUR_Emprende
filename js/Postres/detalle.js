@@ -1,4 +1,3 @@
-// /js/product_detail.js
 
 document.addEventListener('DOMContentLoaded', () => {
     const buyButton = document.querySelector('.product-detail-info .buy-button');
